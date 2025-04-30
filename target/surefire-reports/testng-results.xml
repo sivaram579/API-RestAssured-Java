@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="16" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-30T13:46:05 IST" name="HttpBin API Test Suite" finished-at="2025-04-30T13:46:10 IST" duration-ms="5289">
+    <groups>
+      <group name="regression">
+        <method signature="HttpBinTests.testBasicAuth()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" name="testBasicAuth" class="com.reqres.tests.HttpBinTests"/>
+        <method signature="HttpBinTests.testBearerAuth()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" name="testBearerAuth" class="com.reqres.tests.HttpBinTests"/>
+        <method signature="HttpBinTests.testGetRequest()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" name="testGetRequest" class="com.reqres.tests.HttpBinTests"/>
+        <method signature="HttpBinTests.testGetRequestWithQueryParams(java.lang.String,java.lang.String,int)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" name="testGetRequestWithQueryParams" class="com.reqres.tests.HttpBinTests"/>
+        <method signature="HttpBinTests.testGzipCompression()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" name="testGzipCompression" class="com.reqres.tests.HttpBinTests"/>
+        <method signature="HttpBinTests.testPostRequestWithData(java.lang.String,int,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" name="testPostRequestWithData" class="com.reqres.tests.HttpBinTests"/>
+        <method signature="HttpBinTests.testRequestTimeout()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" name="testRequestTimeout" class="com.reqres.tests.HttpBinTests"/>
+        <method signature="HttpBinTests.testRequestWithHeaders(java.lang.String,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" name="testRequestWithHeaders" class="com.reqres.tests.HttpBinTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="HttpBinTests.testBasicAuth()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" name="testBasicAuth" class="com.reqres.tests.HttpBinTests"/>
+        <method signature="HttpBinTests.testBearerAuth()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" name="testBearerAuth" class="com.reqres.tests.HttpBinTests"/>
+        <method signature="HttpBinTests.testGetRequest()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" name="testGetRequest" class="com.reqres.tests.HttpBinTests"/>
+        <method signature="HttpBinTests.testRequestTimeout()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" name="testRequestTimeout" class="com.reqres.tests.HttpBinTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-04-30T13:46:05 IST" name="API Tests" finished-at="2025-04-30T13:46:10 IST" duration-ms="5289">
+      <class name="com.reqres.tests.HttpBinTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:05 IST" name="setup" finished-at="2025-04-30T13:46:05 IST" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:05 IST" name="beforeMethod" finished-at="2025-04-30T13:46:05 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:05 IST" name="beforeMethod" finished-at="2025-04-30T13:46:05 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:05 IST" name="beforeMethod" finished-at="2025-04-30T13:46:05 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testBearerAuth()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:05 IST" name="testBearerAuth" description="Test Bearer Token Authentication" finished-at="2025-04-30T13:46:07 IST" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBearerAuth -->
+        <test-method signature="testGetRequest()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:05 IST" name="testGetRequest" description="Test GET request" finished-at="2025-04-30T13:46:07 IST" duration-ms="1923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRequest -->
+        <test-method signature="testBasicAuth()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:05 IST" name="testBasicAuth" description="Test Basic Authentication" finished-at="2025-04-30T13:46:07 IST" duration-ms="2302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasicAuth -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:07 IST" name="getResult" finished-at="2025-04-30T13:46:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBearerAuth status=SUCCESS method=HttpBinTests.testBearerAuth()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:07 IST" name="getResult" finished-at="2025-04-30T13:46:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetRequest status=SUCCESS method=HttpBinTests.testGetRequest()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testGzipCompression()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:07 IST" name="testGzipCompression" description="Test request with gzip compression" finished-at="2025-04-30T13:46:08 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGzipCompression -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:07 IST" name="beforeMethod" finished-at="2025-04-30T13:46:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:07 IST" name="beforeMethod" finished-at="2025-04-30T13:46:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetRequestWithQueryParams(java.lang.String,java.lang.String,int)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:07 IST" name="testGetRequestWithQueryParams" description="Test GET request with query parameters" data-provider="queryParams" finished-at="2025-04-30T13:46:08 IST" duration-ms="492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[value]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRequestWithQueryParams -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:07 IST" name="getResult" finished-at="2025-04-30T13:46:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBasicAuth status=SUCCESS method=HttpBinTests.testBasicAuth()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:07 IST" name="beforeMethod" finished-at="2025-04-30T13:46:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testPostRequestWithData(java.lang.String,int,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:07 IST" name="testPostRequestWithData" description="Test POST request with different data" data-provider="postTestData" finished-at="2025-04-30T13:46:09 IST" duration-ms="1145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test case 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequestWithData -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:08 IST" name="getResult" finished-at="2025-04-30T13:46:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGzipCompression status=SUCCESS method=HttpBinTests.testGzipCompression()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:08 IST" name="beforeMethod" finished-at="2025-04-30T13:46:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testRequestTimeout()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:08 IST" name="testRequestTimeout" description="Test request timeout" finished-at="2025-04-30T13:46:09 IST" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequestTimeout -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:08 IST" name="getResult" finished-at="2025-04-30T13:46:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetRequestWithQueryParams status=SUCCESS method=HttpBinTests.testGetRequestWithQueryParams(java.lang.String,java.lang.String,int)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:08 IST" name="beforeMethod" finished-at="2025-04-30T13:46:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetRequestWithQueryParams(java.lang.String,java.lang.String,int)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:08 IST" name="testGetRequestWithQueryParams" description="Test GET request with query parameters" data-provider="queryParams" finished-at="2025-04-30T13:46:08 IST" duration-ms="482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[param1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRequestWithQueryParams -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:08 IST" name="getResult" finished-at="2025-04-30T13:46:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetRequestWithQueryParams status=SUCCESS method=HttpBinTests.testGetRequestWithQueryParams(java.lang.String,java.lang.String,int)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testGetRequestWithQueryParams(java.lang.String,java.lang.String,int)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:08 IST" name="testGetRequestWithQueryParams" description="Test GET request with query parameters" data-provider="queryParams" finished-at="2025-04-30T13:46:09 IST" duration-ms="484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[key]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRequestWithQueryParams -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:08 IST" name="beforeMethod" finished-at="2025-04-30T13:46:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:09 IST" name="getResult" finished-at="2025-04-30T13:46:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetRequestWithQueryParams status=SUCCESS method=HttpBinTests.testGetRequestWithQueryParams(java.lang.String,java.lang.String,int)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testRequestWithHeaders(java.lang.String,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:09 IST" name="testRequestWithHeaders" description="Test request with custom headers" data-provider="headers" finished-at="2025-04-30T13:46:09 IST" duration-ms="470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[custom-header1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[value1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequestWithHeaders -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:09 IST" name="beforeMethod" finished-at="2025-04-30T13:46:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:09 IST" name="getResult" finished-at="2025-04-30T13:46:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRequestTimeout status=SUCCESS method=HttpBinTests.testRequestTimeout()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:09 IST" name="getResult" finished-at="2025-04-30T13:46:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPostRequestWithData status=SUCCESS method=HttpBinTests.testPostRequestWithData(java.lang.String,int,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testPostRequestWithData(java.lang.String,int,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:09 IST" name="testPostRequestWithData" description="Test POST request with different data" data-provider="postTestData" finished-at="2025-04-30T13:46:10 IST" duration-ms="1122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test case 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequestWithData -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:09 IST" name="beforeMethod" finished-at="2025-04-30T13:46:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:09 IST" name="getResult" finished-at="2025-04-30T13:46:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRequestWithHeaders status=SUCCESS method=HttpBinTests.testRequestWithHeaders(java.lang.String,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:09 IST" name="beforeMethod" finished-at="2025-04-30T13:46:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testRequestWithHeaders(java.lang.String,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:09 IST" name="testRequestWithHeaders" description="Test request with custom headers" data-provider="headers" finished-at="2025-04-30T13:46:10 IST" duration-ms="879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[custom-header2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[value2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequestWithHeaders -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:10 IST" name="getResult" finished-at="2025-04-30T13:46:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPostRequestWithData status=SUCCESS method=HttpBinTests.testPostRequestWithData(java.lang.String,int,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testPostRequestWithData(java.lang.String,int,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:10 IST" name="testPostRequestWithData" description="Test POST request with different data" data-provider="postTestData" finished-at="2025-04-30T13:46:10 IST" duration-ms="471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test case 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequestWithData -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:10 IST" name="beforeMethod" finished-at="2025-04-30T13:46:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:10 IST" name="getResult" finished-at="2025-04-30T13:46:10 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRequestWithHeaders status=SUCCESS method=HttpBinTests.testRequestWithHeaders(java.lang.String,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:10 IST" name="beforeMethod" finished-at="2025-04-30T13:46:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testRequestWithHeaders(java.lang.String,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:10 IST" name="testRequestWithHeaders" description="Test request with custom headers" data-provider="headers" finished-at="2025-04-30T13:46:10 IST" duration-ms="478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[custom-header3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[value3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequestWithHeaders -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:10 IST" name="getResult" finished-at="2025-04-30T13:46:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPostRequestWithData status=SUCCESS method=HttpBinTests.testPostRequestWithData(java.lang.String,int,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:10 IST" name="getResult" finished-at="2025-04-30T13:46:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRequestWithHeaders status=SUCCESS method=HttpBinTests.testRequestWithHeaders(java.lang.String,java.lang.String)[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.reqres.tests.HttpBinTests@619713e5]" started-at="2025-04-30T13:46:11 IST" name="tearDown" finished-at="2025-04-30T13:46:11 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.reqres.tests.HttpBinTests -->
+    </test> <!-- API Tests -->
+  </suite> <!-- HttpBin API Test Suite -->
+</testng-results>

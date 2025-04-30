@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-HttpBin_API_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">HttpBin API Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-HttpBin_API_Test_Suite" class="navigator-link ">
+                    <span>F:\API-RestAssured-Java\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-HttpBin_API_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-HttpBin_API_Test_Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-HttpBin_API_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-HttpBin_API_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-HttpBin_API_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-HttpBin_API_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-HttpBin_API_Test_Suite" class="hide-methods passed suite-HttpBin_API_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-HttpBin_API_Test_Suite -->
+                      <a href="#" panel-name="suite-HttpBin_API_Test_Suite" class="show-methods passed suite-HttpBin_API_Test_Suite"> (show)</a> <!-- show-methods passed suite-HttpBin_API_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-HttpBin_API_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testBasicAuth">testBasicAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testBearerAuth">testBearerAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testGetRequest">testGetRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testGetRequestWithQueryParams(param1, test, 200)">testGetRequestWithQueryParams(param1, test, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testGetRequestWithQueryParams(name, value, 200)">testGetRequestWithQueryParams(name, value, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testGetRequestWithQueryParams(key, 123, 200)">testGetRequestWithQueryParams(key, 123, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testGzipCompression">testGzipCompression</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testPostRequestWithData(test1, 123, Test case 1)">testPostRequestWithData(test1, 123, Test case 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testPostRequestWithData(test3, 789, Test case 3)">testPostRequestWithData(test3, 789, Test case 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testPostRequestWithData(test2, 456, Test case 2)">testPostRequestWithData(test2, 456, Test case 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testRequestTimeout">testRequestTimeout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testRequestWithHeaders(custom-header1, value1)">testRequestWithHeaders(custom-header1, value1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testRequestWithHeaders(custom-header2, value2)">testRequestWithHeaders(custom-header2, value2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HttpBin_API_Test_Suite" title="com.reqres.tests.HttpBinTests" class="method navigator-link" hash-for-method="testRequestWithHeaders(custom-header3, value3)">testRequestWithHeaders(custom-header3, value3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-HttpBin_API_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-HttpBin_API_Test_Suite" class="panel HttpBin_API_Test_Suite">
+          <div class="suite-HttpBin_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.reqres.tests.HttpBinTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBasicAuth">
+                  </a> <!-- testBasicAuth -->
+                  <span class="method-name">testBasicAuth</span>
+                  <em>
+(Test Basic Authentication)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBearerAuth">
+                  </a> <!-- testBearerAuth -->
+                  <span class="method-name">testBearerAuth</span>
+                  <em>
+(Test Bearer Token Authentication)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRequest">
+                  </a> <!-- testGetRequest -->
+                  <span class="method-name">testGetRequest</span>
+                  <em>
+(Test GET request)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRequestWithQueryParams(param1, test, 200)">
+                  </a> <!-- testGetRequestWithQueryParams(param1, test, 200) -->
+                  <span class="method-name">testGetRequestWithQueryParams</span>
+                  <span class="parameters">(param1,test,200)</span>
+                  <em>
+(Test GET request with query parameters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRequestWithQueryParams(name, value, 200)">
+                  </a> <!-- testGetRequestWithQueryParams(name, value, 200) -->
+                  <span class="method-name">testGetRequestWithQueryParams</span>
+                  <span class="parameters">(name,value,200)</span>
+                  <em>
+(Test GET request with query parameters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRequestWithQueryParams(key, 123, 200)">
+                  </a> <!-- testGetRequestWithQueryParams(key, 123, 200) -->
+                  <span class="method-name">testGetRequestWithQueryParams</span>
+                  <span class="parameters">(key,123,200)</span>
+                  <em>
+(Test GET request with query parameters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGzipCompression">
+                  </a> <!-- testGzipCompression -->
+                  <span class="method-name">testGzipCompression</span>
+                  <em>
+(Test request with gzip compression)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostRequestWithData(test1, 123, Test case 1)">
+                  </a> <!-- testPostRequestWithData(test1, 123, Test case 1) -->
+                  <span class="method-name">testPostRequestWithData</span>
+                  <span class="parameters">(test1,123,Test case 1)</span>
+                  <em>
+(Test POST request with different data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostRequestWithData(test3, 789, Test case 3)">
+                  </a> <!-- testPostRequestWithData(test3, 789, Test case 3) -->
+                  <span class="method-name">testPostRequestWithData</span>
+                  <span class="parameters">(test3,789,Test case 3)</span>
+                  <em>
+(Test POST request with different data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostRequestWithData(test2, 456, Test case 2)">
+                  </a> <!-- testPostRequestWithData(test2, 456, Test case 2) -->
+                  <span class="method-name">testPostRequestWithData</span>
+                  <span class="parameters">(test2,456,Test case 2)</span>
+                  <em>
+(Test POST request with different data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRequestTimeout">
+                  </a> <!-- testRequestTimeout -->
+                  <span class="method-name">testRequestTimeout</span>
+                  <em>
+(Test request timeout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRequestWithHeaders(custom-header1, value1)">
+                  </a> <!-- testRequestWithHeaders(custom-header1, value1) -->
+                  <span class="method-name">testRequestWithHeaders</span>
+                  <span class="parameters">(custom-header1,value1)</span>
+                  <em>
+(Test request with custom headers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRequestWithHeaders(custom-header2, value2)">
+                  </a> <!-- testRequestWithHeaders(custom-header2, value2) -->
+                  <span class="method-name">testRequestWithHeaders</span>
+                  <span class="parameters">(custom-header2,value2)</span>
+                  <em>
+(Test request with custom headers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRequestWithHeaders(custom-header3, value3)">
+                  </a> <!-- testRequestWithHeaders(custom-header3, value3) -->
+                  <span class="method-name">testRequestWithHeaders</span>
+                  <span class="parameters">(custom-header3,value3)</span>
+                  <em>
+(Test request with custom headers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HttpBin_API_Test_Suite-class-passed -->
+        </div> <!-- panel HttpBin_API_Test_Suite -->
+        <div panel-name="test-xml-HttpBin_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\API-RestAssured-Java\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;HttpBin API Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.reqres.utils.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;API Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;smoke&quot;/&gt;
+        &lt;include name=&quot;regression&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.reqres.tests.HttpBinTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Tests --&gt;
+&lt;/suite&gt; &lt;!-- HttpBin API Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-HttpBin_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for HttpBin API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-HttpBin_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for HttpBin API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBasicAuth</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBearerAuth</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRequest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRequestWithQueryParams</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGzipCompression</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testPostRequestWithData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRequestTimeout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRequestWithHeaders</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBasicAuth</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBearerAuth</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRequest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRequestTimeout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-HttpBin_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for HttpBin API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_HttpBin_API_Test_Suite');
+function tableData_HttpBin_API_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testBasicAuth')
+data.setCell(0, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(0, 3, 2302);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testBearerAuth')
+data.setCell(1, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(1, 3, 1924);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetRequest')
+data.setCell(2, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(2, 3, 1923);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testPostRequestWithData')
+data.setCell(3, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(3, 3, 1145);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testPostRequestWithData')
+data.setCell(4, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(4, 3, 1122);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRequestTimeout')
+data.setCell(5, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(5, 3, 1029);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testRequestWithHeaders')
+data.setCell(6, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(6, 3, 879);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetRequestWithQueryParams')
+data.setCell(7, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(7, 3, 492);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testGetRequestWithQueryParams')
+data.setCell(8, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(8, 3, 484);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGetRequestWithQueryParams')
+data.setCell(9, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(9, 3, 482);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testRequestWithHeaders')
+data.setCell(10, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(10, 3, 478);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testPostRequestWithData')
+data.setCell(11, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(11, 3, 471);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testRequestWithHeaders')
+data.setCell(12, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(12, 3, 470);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testGzipCompression')
+data.setCell(13, 2, 'com.reqres.tests.HttpBinTests')
+data.setCell(13, 3, 468);
+window.suiteTableData['HttpBin_API_Test_Suite']= { tableData: data, tableDiv: 'times-div-HttpBin_API_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-HttpBin_API_Test_Suite">
+              </div> <!-- times-div-HttpBin_API_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-HttpBin_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for HttpBin API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-HttpBin_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.reqres.tests.HttpBinTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testDeleteRequest</span>
+                <br/>
+                <span class="ignored-method-name">testPutRequest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-HttpBin_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.reqres.tests.HttpBinTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">610 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testBearerAuth</span>
+                <span class="method-start">616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRequest</span>
+                <span class="method-start">616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBasicAuth</span>
+                <span class="method-start">616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testBearerAuth status=SUCCESS method=HttpBinTests.testBearerAuth()[pri:0, instance:...)</span>
+                <span class="method-start">2551 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testGetRequest status=SUCCESS method=HttpBinTests.testGetRequest()[pri:0, instance:...)</span>
+                <span class="method-start">2555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testGzipCompression</span>
+                <span class="method-start">2559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">2559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">2569 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetRequestWithQueryParams(name, value, 200)</span>
+                <span class="method-start">2570 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testBasicAuth status=SUCCESS method=HttpBinTests.testBasicAuth()[pri:0, instance:co...)</span>
+                <span class="method-start">2919 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">2920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPostRequestWithData(test1, 123, Test case 1)</span>
+                <span class="method-start">2921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testGzipCompression status=SUCCESS method=HttpBinTests.testGzipCompression()[pri:0,...)</span>
+                <span class="method-start">3028 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">3029 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRequestTimeout</span>
+                <span class="method-start">3030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testGetRequestWithQueryParams status=SUCCESS method=HttpBinTests.testGetRequestWith...)</span>
+                <span class="method-start">3063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">3064 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetRequestWithQueryParams(param1, test, 200)</span>
+                <span class="method-start">3065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testGetRequestWithQueryParams status=SUCCESS method=HttpBinTests.testGetRequestWith...)</span>
+                <span class="method-start">3548 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">3549 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetRequestWithQueryParams(key, 123, 200)</span>
+                <span class="method-start">3549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testGetRequestWithQueryParams status=SUCCESS method=HttpBinTests.testGetRequestWith...)</span>
+                <span class="method-start">4034 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">4035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRequestWithHeaders(custom-header1, value1)</span>
+                <span class="method-start">4035 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testRequestTimeout status=SUCCESS method=HttpBinTests.testRequestTimeout()[pri:0, i...)</span>
+                <span class="method-start">4060 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testPostRequestWithData status=SUCCESS method=HttpBinTests.testPostRequestWithData(...)</span>
+                <span class="method-start">4066 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testPostRequestWithData(test2, 456, Test case 2)</span>
+                <span class="method-start">4067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">4067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testRequestWithHeaders status=SUCCESS method=HttpBinTests.testRequestWithHeaders(ja...)</span>
+                <span class="method-start">4505 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">4506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRequestWithHeaders(custom-header2, value2)</span>
+                <span class="method-start">4507 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testPostRequestWithData status=SUCCESS method=HttpBinTests.testPostRequestWithData(...)</span>
+                <span class="method-start">5189 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5190 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPostRequestWithData(test3, 789, Test case 3)</span>
+                <span class="method-start">5190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testRequestWithHeaders status=SUCCESS method=HttpBinTests.testRequestWithHeaders(ja...)</span>
+                <span class="method-start">5387 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRequestWithHeaders(custom-header3, value3)</span>
+                <span class="method-start">5390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testPostRequestWithData status=SUCCESS method=HttpBinTests.testPostRequestWithData(...)</span>
+                <span class="method-start">5662 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testRequestWithHeaders status=SUCCESS method=HttpBinTests.testRequestWithHeaders(ja...)</span>
+                <span class="method-start">5869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6170 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

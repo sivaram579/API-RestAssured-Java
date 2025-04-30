@@ -1,0 +1,18 @@
+{
+  "valid_user": {
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+  },
+  "invalid_user": {
+    "email": "invalid@reqres.in",
+    "password": "invalid"
+  },
+  "new_user": {
+    "name": "morpheus",
+    "job": "leader"
+  },
+  "update_user": {
+    "name": "morpheus",
+    "job": "zion resident"
+  }
+} 

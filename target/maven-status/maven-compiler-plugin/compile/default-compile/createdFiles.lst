@@ -1,0 +1,8 @@
+com\reqres\models\User$UserBuilder.class
+com\reqres\utils\TestListener.class
+com\reqres\utils\ApiUtils.class
+com\reqres\base\BaseTest.class
+com\reqres\utils\RetryAnalyzer.class
+com\reqres\utils\TestDataProvider.class
+com\reqres\config\Config.class
+com\reqres\models\User.class
