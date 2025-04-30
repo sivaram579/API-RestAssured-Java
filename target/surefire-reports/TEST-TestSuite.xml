@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.923" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.976" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire1069932652148007236\surefirebooter-20250430134604124_3.jar C:\Users\ADMIN\AppData\Local\Temp\surefire1069932652148007236 2025-04-30T13-46-03_969-jvmRun1 surefire-20250430134604124_1tmp surefire_0-20250430134604124_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire6406176442122498976\surefirebooter-20250430135539514_3.jar C:\Users\ADMIN\AppData\Local\Temp\surefire6406176442122498976 2025-04-30T13-55-39_203-jvmRun1 surefire-20250430135539514_1tmp surefire_0-20250430135539514_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="F:\API-RestAssured-Java\target\test-classes;F:\API-RestAssured-Java\target\classes;C:\Users\ADMIN\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ADMIN\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ADMIN\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ADMIN\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ADMIN\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ADMIN\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ADMIN\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ADMIN\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ADMIN\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\ADMIN\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ADMIN\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\ADMIN\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\ADMIN\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ADMIN\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ADMIN\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ADMIN\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\ADMIN\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ADMIN\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\ADMIN\.m2\repository\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire1069932652148007236\surefirebooter-20250430134604124_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire6406176442122498976\surefirebooter-20250430135539514_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
@@ -57,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testBearerAuth" classname="com.reqres.tests.HttpBinTests" time="1.931">
+  <testcase name="testGetRequest" classname="com.reqres.tests.HttpBinTests" time="2.079">
     <system-out><![CDATA[Request method:	GET
 Request URI:	http://httpbin.org/get
 Proxy:			<none>
@@ -71,7 +71,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 30 Apr 2025 08:16:06 GMT
+Date: Wed, 30 Apr 2025 08:25:42 GMT
 Content-Type: application/json
 Content-Length: 362
 Connection: keep-alive
@@ -89,15 +89,16 @@ Access-Control-Allow-Credentials: true
         "Content-Type": "application/json",
         "Host": "httpbin.org",
         "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
-        "X-Amzn-Trace-Id": "Root=1-6811dc46-52829b8e683293b85b7168a6"
+        "X-Amzn-Trace-Id": "Root=1-6811de86-2827b94864265dd704727b93"
     },
     "origin": "49.37.129.80",
     "url": "http://httpbin.org/get"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetRequest" classname="com.reqres.tests.HttpBinTests" time="1.934"/>
-  <testcase name="testBasicAuth" classname="com.reqres.tests.HttpBinTests" time="0.352">
+  <testcase name="testBearerAuth" classname="com.reqres.tests.HttpBinTests" time="2.08"/>
+  <testcase name="testBasicAuth" classname="com.reqres.tests.HttpBinTests" time="2.082"/>
+  <testcase name="testGetRequestWithQueryParams[name, value, 200](1)" classname="com.reqres.tests.HttpBinTests" time="0.535">
     <system-out><![CDATA[Request method:	GET
 Request URI:	http://httpbin.org/get
 Proxy:			<none>
@@ -123,87 +124,6 @@ Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-]]></system-out>
-  </testcase>
-  <testcase name="testGzipCompression" classname="com.reqres.tests.HttpBinTests" time="0.112">
-    <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Wed, 30 Apr 2025 08:16:07 GMT
-Content-Type: application/json
-Content-Length: 362
-Connection: keep-alive
-Server: gunicorn/19.9.0
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Credentials: true
-
-{
-    "args": {
-        
-    },
-    "headers": {
-        "Accept": "*/*",
-        "Accept-Encoding": "gzip,deflate",
-        "Content-Type": "application/json",
-        "Host": "httpbin.org",
-        "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
-        "X-Amzn-Trace-Id": "Root=1-6811dc47-2978bb3246d4d8be7e7708e9"
-    },
-    "origin": "49.37.129.80",
-    "url": "http://httpbin.org/get"
-}
-]]></system-out>
-  </testcase>
-  <testcase name="testGetRequestWithQueryParams[name, value, 200](1)" classname="com.reqres.tests.HttpBinTests" time="0.089">
-    <system-out><![CDATA[Request method:	GET
-Request URI:	http://httpbin.org/get
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Wed, 30 Apr 2025 08:16:07 GMT
-Content-Type: application/json
-Content-Length: 396
-Connection: keep-alive
-Server: gunicorn/19.9.0
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Credentials: true
-
-{
-    "args": {
-        "name": "value"
-    },
-    "headers": {
-        "Accept": "*/*",
-        "Accept-Encoding": "gzip,deflate",
-        "Content-Type": "application/json",
-        "Host": "httpbin.org",
-        "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
-        "X-Amzn-Trace-Id": "Root=1-6811dc47-7e0473135a6220c46d09f5bb"
-    },
-    "origin": "49.37.129.80",
-    "url": "http://httpbin.org/get?name=value"
-}
-]]></system-out>
-  </testcase>
-  <testcase name="testGetRequestWithQueryParams[param1, test, 200](2)" classname="com.reqres.tests.HttpBinTests" time="0.425">
-    <system-out><![CDATA[Request method:	GET
-Request URI:	http://httpbin.org/get?param1=test
-Proxy:			<none>
-Request params:	<none>
-Query params:	param1=test
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
 Request method:	POST
 Request URI:	http://httpbin.org/post
 Proxy:			<none>
@@ -221,9 +141,9 @@ Body:
     "value": 123
 }
 HTTP/1.1 200 OK
-Date: Wed, 30 Apr 2025 08:16:08 GMT
+Date: Wed, 30 Apr 2025 08:25:43 GMT
 Content-Type: application/json
-Content-Length: 398
+Content-Length: 396
 Connection: keep-alive
 Server: gunicorn/19.9.0
 Access-Control-Allow-Origin: *
@@ -231,7 +151,7 @@ Access-Control-Allow-Credentials: true
 
 {
     "args": {
-        "param1": "test"
+        "name": "value"
     },
     "headers": {
         "Accept": "*/*",
@@ -239,19 +159,19 @@ Access-Control-Allow-Credentials: true
         "Content-Type": "application/json",
         "Host": "httpbin.org",
         "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
-        "X-Amzn-Trace-Id": "Root=1-6811dc48-5156c25e4e89a0b50410087f"
+        "X-Amzn-Trace-Id": "Root=1-6811de87-67de78284a274bdd00d7578f"
     },
     "origin": "49.37.129.80",
-    "url": "http://httpbin.org/get?param1=test"
+    "url": "http://httpbin.org/get?name=value"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetRequestWithQueryParams[key, 123, 200](3)" classname="com.reqres.tests.HttpBinTests" time="0.486">
+  <testcase name="testGzipCompression" classname="com.reqres.tests.HttpBinTests" time="0.281">
     <system-out><![CDATA[Request method:	GET
-Request URI:	http://httpbin.org/get?key=123
+Request URI:	http://httpbin.org/get?param1=test
 Proxy:			<none>
 Request params:	<none>
-Query params:	key=123
+Query params:	param1=test
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -260,9 +180,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 30 Apr 2025 08:16:08 GMT
+Date: Wed, 30 Apr 2025 08:25:43 GMT
 Content-Type: application/json
-Content-Length: 390
+Content-Length: 362
 Connection: keep-alive
 Server: gunicorn/19.9.0
 Access-Control-Allow-Origin: *
@@ -270,7 +190,7 @@ Access-Control-Allow-Credentials: true
 
 {
     "args": {
-        "key": "123"
+        
     },
     "headers": {
         "Accept": "*/*",
@@ -278,14 +198,14 @@ Access-Control-Allow-Credentials: true
         "Content-Type": "application/json",
         "Host": "httpbin.org",
         "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
-        "X-Amzn-Trace-Id": "Root=1-6811dc48-1c00c2b7541a781a56ad16e0"
+        "X-Amzn-Trace-Id": "Root=1-6811de87-6220f46f2834c9df1093a1b6"
     },
     "origin": "49.37.129.80",
-    "url": "http://httpbin.org/get?key=123"
+    "url": "http://httpbin.org/get"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testRequestTimeout" classname="com.reqres.tests.HttpBinTests" time="0.053">
+  <testcase name="testPostRequestWithData[test1, 123, Test case 1](1)" classname="com.reqres.tests.HttpBinTests" time="0.094">
     <system-out><![CDATA[Request method:	GET
 Request URI:	http://httpbin.org/get
 Proxy:			<none>
@@ -293,14 +213,13 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		custom-header1=value1
-				Accept=*/*
+Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 30 Apr 2025 08:16:08 GMT
+Date: Wed, 30 Apr 2025 08:25:43 GMT
 Content-Type: application/json
 Content-Length: 529
 Connection: keep-alive
@@ -326,7 +245,7 @@ Access-Control-Allow-Credentials: true
         "Content-Type": "application/json",
         "Host": "httpbin.org",
         "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
-        "X-Amzn-Trace-Id": "Root=1-6811dc48-09b9066f717cd9211161101e"
+        "X-Amzn-Trace-Id": "Root=1-6811de87-1961685c49c699446f356e27"
     },
     "json": {
         "name": "test1",
@@ -335,34 +254,9 @@ Access-Control-Allow-Credentials: true
     "origin": "49.37.129.80",
     "url": "http://httpbin.org/post"
 }
-HTTP/1.1 200 OK
-Date: Wed, 30 Apr 2025 08:16:08 GMT
-Content-Type: application/json
-Content-Length: 362
-Connection: keep-alive
-Server: gunicorn/19.9.0
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Credentials: true
-
-{
-    "args": {
-        
-    },
-    "headers": {
-        "Accept": "*/*",
-        "Accept-Encoding": "gzip,deflate",
-        "Content-Type": "application/json",
-        "Host": "httpbin.org",
-        "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
-        "X-Amzn-Trace-Id": "Root=1-6811dc48-347daa69214a9c5510d0c1c0"
-    },
-    "origin": "49.37.129.80",
-    "url": "http://httpbin.org/get"
-}
 ]]></system-out>
   </testcase>
-  <testcase name="testPostRequestWithData[test1, 123, Test case 1](1)" classname="com.reqres.tests.HttpBinTests" time="0.054"/>
-  <testcase name="testRequestWithHeaders[custom-header1, value1](1)" classname="com.reqres.tests.HttpBinTests" time="0.418">
+  <testcase name="testGetRequestWithQueryParams[param1, test, 200](2)" classname="com.reqres.tests.HttpBinTests" time="0.1">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://httpbin.org/post
 Proxy:			<none>
@@ -380,9 +274,48 @@ Body:
     "value": 456
 }
 HTTP/1.1 200 OK
-Date: Wed, 30 Apr 2025 08:16:09 GMT
+Date: Wed, 30 Apr 2025 08:25:43 GMT
 Content-Type: application/json
-Content-Length: 395
+Content-Length: 398
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+
+{
+    "args": {
+        "param1": "test"
+    },
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip,deflate",
+        "Content-Type": "application/json",
+        "Host": "httpbin.org",
+        "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
+        "X-Amzn-Trace-Id": "Root=1-6811de87-118712677b1f3b264d5fbce0"
+    },
+    "origin": "49.37.129.80",
+    "url": "http://httpbin.org/get?param1=test"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testRequestTimeout" classname="com.reqres.tests.HttpBinTests" time="0.265">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://httpbin.org/get?key=123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 30 Apr 2025 08:25:44 GMT
+Content-Type: application/json
+Content-Length: 362
 Connection: keep-alive
 Server: gunicorn/19.9.0
 Access-Control-Allow-Origin: *
@@ -396,17 +329,16 @@ Access-Control-Allow-Credentials: true
         "Accept": "*/*",
         "Accept-Encoding": "gzip,deflate",
         "Content-Type": "application/json",
-        "Custom-Header1": "value1",
         "Host": "httpbin.org",
         "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
-        "X-Amzn-Trace-Id": "Root=1-6811dc49-00e4d7625620c23c02f5df78"
+        "X-Amzn-Trace-Id": "Root=1-6811de88-7b86c6a463fa54d319f69ead"
     },
     "origin": "49.37.129.80",
     "url": "http://httpbin.org/get"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testPostRequestWithData[test2, 456, Test case 2](2)" classname="com.reqres.tests.HttpBinTests" time="0.694">
+  <testcase name="testPostRequestWithData[test2, 456, Test case 2](2)" classname="com.reqres.tests.HttpBinTests" time="0.11">
     <system-out><![CDATA[Request method:	GET
 Request URI:	http://httpbin.org/get
 Proxy:			<none>
@@ -414,14 +346,14 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		custom-header2=value2
+Headers:		custom-header1=value1
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 30 Apr 2025 08:16:09 GMT
+Date: Wed, 30 Apr 2025 08:25:44 GMT
 Content-Type: application/json
 Content-Length: 529
 Connection: keep-alive
@@ -447,7 +379,7 @@ Access-Control-Allow-Credentials: true
         "Content-Type": "application/json",
         "Host": "httpbin.org",
         "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
-        "X-Amzn-Trace-Id": "Root=1-6811dc49-177fbe846988ce044764465b"
+        "X-Amzn-Trace-Id": "Root=1-6811de88-546efea06867c4cc3e718720"
     },
     "json": {
         "name": "test2",
@@ -458,7 +390,7 @@ Access-Control-Allow-Credentials: true
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testRequestWithHeaders[custom-header2, value2](2)" classname="com.reqres.tests.HttpBinTests" time="0.178">
+  <testcase name="testGetRequestWithQueryParams[key, 123, 200](3)" classname="com.reqres.tests.HttpBinTests" time="0.062">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://httpbin.org/post
 Proxy:			<none>
@@ -476,7 +408,34 @@ Body:
     "value": 789
 }
 HTTP/1.1 200 OK
-Date: Wed, 30 Apr 2025 08:16:10 GMT
+Date: Wed, 30 Apr 2025 08:25:44 GMT
+Content-Type: application/json
+Content-Length: 390
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+
+{
+    "args": {
+        "key": "123"
+    },
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip,deflate",
+        "Content-Type": "application/json",
+        "Host": "httpbin.org",
+        "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
+        "X-Amzn-Trace-Id": "Root=1-6811de88-43b77ad5476dd1e515f92b02"
+    },
+    "origin": "49.37.129.80",
+    "url": "http://httpbin.org/get?key=123"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testRequestWithHeaders[custom-header1, value1](1)" classname="com.reqres.tests.HttpBinTests" time="0.379">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 30 Apr 2025 08:25:44 GMT
 Content-Type: application/json
 Content-Length: 395
 Connection: keep-alive
@@ -492,17 +451,17 @@ Access-Control-Allow-Credentials: true
         "Accept": "*/*",
         "Accept-Encoding": "gzip,deflate",
         "Content-Type": "application/json",
-        "Custom-Header2": "value2",
+        "Custom-Header1": "value1",
         "Host": "httpbin.org",
         "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
-        "X-Amzn-Trace-Id": "Root=1-6811dc49-35f3092166555125574447a2"
+        "X-Amzn-Trace-Id": "Root=1-6811de88-3d5419d739b7a4f515325317"
     },
     "origin": "49.37.129.80",
     "url": "http://httpbin.org/get"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testPostRequestWithData[test3, 789, Test case 3](3)" classname="com.reqres.tests.HttpBinTests" time="0.257">
+  <testcase name="testPostRequestWithData[test3, 789, Test case 3](3)" classname="com.reqres.tests.HttpBinTests" time="0.209">
     <system-out><![CDATA[Request method:	GET
 Request URI:	http://httpbin.org/get
 Proxy:			<none>
@@ -510,14 +469,14 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		custom-header3=value3
+Headers:		custom-header2=value2
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 30 Apr 2025 08:16:10 GMT
+Date: Wed, 30 Apr 2025 08:25:44 GMT
 Content-Type: application/json
 Content-Length: 529
 Connection: keep-alive
@@ -543,7 +502,7 @@ Access-Control-Allow-Credentials: true
         "Content-Type": "application/json",
         "Host": "httpbin.org",
         "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
-        "X-Amzn-Trace-Id": "Root=1-6811dc4a-4bfc7e387eb3c62f57fe9f9b"
+        "X-Amzn-Trace-Id": "Root=1-6811de88-25b0baed18e4487f43544ec8"
     },
     "json": {
         "name": "test3",
@@ -554,9 +513,50 @@ Access-Control-Allow-Credentials: true
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testRequestWithHeaders[custom-header3, value3](3)" classname="com.reqres.tests.HttpBinTests" time="0.461">
+  <testcase name="testRequestWithHeaders[custom-header2, value2](2)" classname="com.reqres.tests.HttpBinTests" time="0.959">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Wed, 30 Apr 2025 08:16:10 GMT
+Date: Wed, 30 Apr 2025 08:25:45 GMT
+Content-Type: application/json
+Content-Length: 395
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+
+{
+    "args": {
+        
+    },
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip,deflate",
+        "Content-Type": "application/json",
+        "Custom-Header2": "value2",
+        "Host": "httpbin.org",
+        "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
+        "X-Amzn-Trace-Id": "Root=1-6811de89-3abd0f5d6287843f41ca3628"
+    },
+    "origin": "49.37.129.80",
+    "url": "http://httpbin.org/get"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testRequestWithHeaders[custom-header3, value3](3)" classname="com.reqres.tests.HttpBinTests" time="0.456">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://httpbin.org/get
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		custom-header3=value3
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 30 Apr 2025 08:25:46 GMT
 Content-Type: application/json
 Content-Length: 395
 Connection: keep-alive
@@ -575,7 +575,7 @@ Access-Control-Allow-Credentials: true
         "Custom-Header3": "value3",
         "Host": "httpbin.org",
         "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.10)",
-        "X-Amzn-Trace-Id": "Root=1-6811dc4a-2bfcfd073e209cc234141937"
+        "X-Amzn-Trace-Id": "Root=1-6811de8a-0dcc2a6f168d8e62377ca03c"
     },
     "origin": "49.37.129.80",
     "url": "http://httpbin.org/get"

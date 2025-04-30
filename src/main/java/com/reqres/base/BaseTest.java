@@ -55,9 +55,16 @@ public class BaseTest {
     }
 
     @BeforeMethod(alwaysRun = true)
-    public void beforeMethod() {
-        ExtentTest test = extent.createTest(getClass().getSimpleName() 
-                + " : " + Thread.currentThread().getStackTrace()[2].getMethodName());
+    public void beforeMethod(ITestResult result) {
+        String testName = result.getMethod().getDescription();
+        if (testName == null || testName.isEmpty()) {
+            testName = result.getMethod().getMethodName();
+        }
+        // Create a more descriptive test name that includes the class name and test description
+        String fullTestName = String.format("%s - %s", 
+            result.getTestClass().getRealClass().getSimpleName(),
+            testName);
+        ExtentTest test = extent.createTest(fullTestName);
         extentTest.set(test);
     }
 

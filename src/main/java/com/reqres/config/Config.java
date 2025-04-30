@@ -16,7 +16,7 @@ public class Config {
     public static final String TEST_DATA_PATH = "src/test/resources/testdata/";
     
     // Report Path
-    public static final String REPORT_PATH = "target/extent-reports/";
+    public static final String REPORT_PATH = "reports/extent-reports/";
     
     // Authentication
     public static final String BASIC_AUTH_USER = "user";
